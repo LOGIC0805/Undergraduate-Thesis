@@ -124,6 +124,6 @@ def Crawler(page):
             
             AddToSql(posts)
 
-for page in range(3038, 3039):
+for page in range(1, 3039):
     Crawler(page)
     print('Page ' + str(page) + ' has been successfully crawled.')
